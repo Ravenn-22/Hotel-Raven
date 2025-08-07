@@ -1,0 +1,55 @@
+.hero {
+    background: url(https://plus.unsplash.com/premium_photo-1675616563084-63d1f129623d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww) center/cover no-repeat;
+    height: 80vh;
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items:  center;
+    /* text-shadow: 1px 1px 4px #000; */
+}
+.hero h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: #1a659e;
+}
+.hero p{
+    color: #0d2f49;
+    font-weight: 600;
+}
+.hero button {
+    background: #edf6f9;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: #1a659e;
+    cursor: pointer;
+    font-weight: 600;
+}
+.hero button:hover{
+    background-color: #1a659e;
+    color: #fff;
+    
+    transition: all 1.5s ease ;
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 50vh; 
+    padding: 0 15px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero button {
+    padding: 8px 15px;
+  }
+}
