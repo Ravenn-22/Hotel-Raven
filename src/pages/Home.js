@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 import RoomCard from "../components/RoomCard";
 import BookingForm from "../components/BookingForm";
 import Dining from "../components/Dining";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (

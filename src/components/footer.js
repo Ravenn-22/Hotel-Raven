@@ -1,7 +1,6 @@
 import React from "react";
 import  { useState } from "react";
-import "./footer.css";
-
+import "./Footer.css"
 export default function Footer(){
     const [message , setMessage] = useState("");
     const handleSubmit = (e) => {
